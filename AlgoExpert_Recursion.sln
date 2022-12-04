@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nth_Fibonacci", "Nth_Fibona
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{08941944-DB5F-4BC7-916F-AA99EB31E30A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductSum", "ProductSum\ProductSum.csproj", "{87A5033B-AF17-4E1F-A083-2EE9CB0C7666}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{5C4D3336-C8C6-47D5-B074-BB0BB1214EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C4D3336-C8C6-47D5-B074-BB0BB1214EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C4D3336-C8C6-47D5-B074-BB0BB1214EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A5033B-AF17-4E1F-A083-2EE9CB0C7666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A5033B-AF17-4E1F-A083-2EE9CB0C7666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A5033B-AF17-4E1F-A083-2EE9CB0C7666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A5033B-AF17-4E1F-A083-2EE9CB0C7666}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5C4D3336-C8C6-47D5-B074-BB0BB1214EE3} = {08941944-DB5F-4BC7-916F-AA99EB31E30A}
+		{87A5033B-AF17-4E1F-A083-2EE9CB0C7666} = {08941944-DB5F-4BC7-916F-AA99EB31E30A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {041ABB71-FCD5-4169-BF5E-8EE7F2998F9A}
