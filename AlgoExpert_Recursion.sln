@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nth_Fibonacci", "Nth_Fibonacci\Nth_Fibonacci.csproj", "{5C4D3336-C8C6-47D5-B074-BB0BB1214EE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nth_Fibonacci", "Nth_Fibonacci\Nth_Fibonacci.csproj", "{5C4D3336-C8C6-47D5-B074-BB0BB1214EE3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{08941944-DB5F-4BC7-916F-AA99EB31E30A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductSum", "ProductSum\ProductSum.csproj", "{87A5033B-AF17-4E1F-A083-2EE9CB0C7666}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductSum", "ProductSum\ProductSum.csproj", "{87A5033B-AF17-4E1F-A083-2EE9CB0C7666}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{2638C46A-DB7F-439F-ABC2-2BAD1CE299B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations", "Permutations\Permutations.csproj", "{E121DDDC-7BE0-4D09-90BB-197606E3DA4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,10 @@ Global
 		{87A5033B-AF17-4E1F-A083-2EE9CB0C7666}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87A5033B-AF17-4E1F-A083-2EE9CB0C7666}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87A5033B-AF17-4E1F-A083-2EE9CB0C7666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E121DDDC-7BE0-4D09-90BB-197606E3DA4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E121DDDC-7BE0-4D09-90BB-197606E3DA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E121DDDC-7BE0-4D09-90BB-197606E3DA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E121DDDC-7BE0-4D09-90BB-197606E3DA4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5C4D3336-C8C6-47D5-B074-BB0BB1214EE3} = {08941944-DB5F-4BC7-916F-AA99EB31E30A}
 		{87A5033B-AF17-4E1F-A083-2EE9CB0C7666} = {08941944-DB5F-4BC7-916F-AA99EB31E30A}
+		{E121DDDC-7BE0-4D09-90BB-197606E3DA4B} = {2638C46A-DB7F-439F-ABC2-2BAD1CE299B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {041ABB71-FCD5-4169-BF5E-8EE7F2998F9A}
