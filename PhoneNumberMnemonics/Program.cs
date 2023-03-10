@@ -26,24 +26,24 @@ namespace PhoneNumberMnemonics
                 mnemonics.Add(mnemonic.ToString());
                 return;
             }
-            foreach (var c in digitToChar[int.Parse(phoneNumber[idx].ToString())])
+            foreach (var c in digitToChar[phoneNumber[idx]])
             {
                 mnemonic[idx] = c;
                 PhoneNumberMnemonicsHelper(phoneNumber, idx + 1, mnemonic, mnemonics);
             }
         }
 
-        private static Dictionary<int, string> digitToChar = new Dictionary<int, string>() {
-            { 0, "0" },
-            { 1, "1" },
-            { 2, "abc" },
-            { 3, "def" },
-            { 4, "ghi" },
-            { 5, "jkl" },
-            { 6, "mno" },
-            { 7, "pqrs" },
-            { 8, "tuv" },
-            { 9, "wxyz" },
+        private static Dictionary<char, string> digitToChar = new Dictionary<char, string>() {
+            { '0', "0" },
+            { '1', "1" },
+            { '2', "abc" },
+            { '3', "def" },
+            { '4', "ghi" },
+            { '5', "jkl" },
+            { '6', "mno" },
+            { '7', "pqrs" },
+            { '8', "tuv" },
+            { '9', "wxyz" },
         };
     }
 }
