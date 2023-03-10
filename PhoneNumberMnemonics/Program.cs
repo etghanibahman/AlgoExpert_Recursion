@@ -15,7 +15,7 @@ namespace PhoneNumberMnemonics
         public static List<string> PhoneNumberMnemonics(string phoneNumber)
         {
             var mnemonics = new List<string>();
-            PhoneNumberMnemonicsHelper(phoneNumber, 0,new StringBuilder(phoneNumber), mnemonics);
+            PhoneNumberMnemonicsHelper(phoneNumber, 0, new StringBuilder(phoneNumber), mnemonics);
             return mnemonics;
         }
 
@@ -29,7 +29,7 @@ namespace PhoneNumberMnemonics
             foreach (var c in digitToChar[int.Parse(phoneNumber[idx].ToString())])
             {
                 mnemonic[idx] = c;
-                PhoneNumberMnemonicsHelper(phoneNumber,idx + 1, mnemonic, mnemonics);
+                PhoneNumberMnemonicsHelper(phoneNumber, idx + 1, mnemonic, mnemonics);
             }
         }
 
