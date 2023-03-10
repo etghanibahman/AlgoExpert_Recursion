@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{2638C4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Permutations", "Permutations\Permutations.csproj", "{E121DDDC-7BE0-4D09-90BB-197606E3DA4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Powerset", "Powerset\Powerset.csproj", "{0D6194C3-F7FA-4392-BBA9-812D2F08B74D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Powerset", "Powerset\Powerset.csproj", "{0D6194C3-F7FA-4392-BBA9-812D2F08B74D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneNumberMnemonics", "PhoneNumberMnemonics\PhoneNumberMnemonics.csproj", "{5E65110C-D1AC-408C-B5D4-63F8353A0DFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{0D6194C3-F7FA-4392-BBA9-812D2F08B74D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D6194C3-F7FA-4392-BBA9-812D2F08B74D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D6194C3-F7FA-4392-BBA9-812D2F08B74D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E65110C-D1AC-408C-B5D4-63F8353A0DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E65110C-D1AC-408C-B5D4-63F8353A0DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E65110C-D1AC-408C-B5D4-63F8353A0DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E65110C-D1AC-408C-B5D4-63F8353A0DFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{87A5033B-AF17-4E1F-A083-2EE9CB0C7666} = {08941944-DB5F-4BC7-916F-AA99EB31E30A}
 		{E121DDDC-7BE0-4D09-90BB-197606E3DA4B} = {2638C46A-DB7F-439F-ABC2-2BAD1CE299B2}
 		{0D6194C3-F7FA-4392-BBA9-812D2F08B74D} = {2638C46A-DB7F-439F-ABC2-2BAD1CE299B2}
+		{5E65110C-D1AC-408C-B5D4-63F8353A0DFD} = {2638C46A-DB7F-439F-ABC2-2BAD1CE299B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {041ABB71-FCD5-4169-BF5E-8EE7F2998F9A}
